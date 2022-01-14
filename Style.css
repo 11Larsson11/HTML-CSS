@@ -1,0 +1,205 @@
+/*Overall design*/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0 auto 0 auto;
+	width: 1024px;
+	background-color: black;
+}
+
+/*Design of the top bar*/
+
+h1 {
+	background-color: black;
+	color: coral;
+	width: 350px;
+	height: 80px;
+	margin: auto;
+	float: left;
+	border: solid 1px black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.links {
+	display: inline;
+	float: left;
+}
+
+a {
+	background-color: black;
+	color: #444444;
+	float: inline-end;
+	width: 120px;
+	height: 80px;
+	margin: auto;
+	border-bottom: solid 1px black;
+	border-left: solid 1px black;
+	border-top: solid 1px black;
+	padding: 0 5px 0 5px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*Design of main header and subtext*/
+
+.main {
+	background-color: #282525;
+	clear: both;
+	float: left;
+	width: 796px;
+	padding-top: 20px;
+	border: solid 1px black;
+	color: coral;
+}
+
+h3 {
+	color: ghostwhite;
+	padding-left: 30px;
+}
+
+.paragraph1 {
+	color: antiquewhite;
+	padding: 3px 30px 3px 30px;
+}
+
+.paragraphtext {
+	color: antiquewhite;
+}
+
+/*Design of article 1 (left)*/
+
+.article1 {
+	width: 350px;
+	float: left;
+	padding: 3px 15px 3px 30px;
+}
+
+.article1 h4 {
+	color: ghostwhite;
+}
+
+/*Design of article 2 (right)*/
+
+.article2 {
+	width: 350px;
+	float: left;
+	padding: 3px 30px 3px 15px;
+}
+
+.article2 h4 {
+	color: ghostwhite;
+}
+
+/*Image design*/
+
+img {
+	width: 220px;
+	float: left;
+	padding: 0 15px 20px 0;
+}
+
+
+/*Design of the main page side content*/
+
+.side {
+	background-color: #282525;
+	float: right;
+	width: 224px;
+	height: 657px;
+	padding-top: 20px;
+	border-bottom: solid 1px black;
+	border-left: solid 1px black;
+	border-top: solid 1px black;
+	color: coral;
+}
+
+.side h3 {
+	color: ghostwhite;
+	padding: 0 10px 0 10px;
+}
+
+.side ol li {
+	color: antiquewhite;
+	padding: 0 15px 0 0;
+}
+
+
+/*Design of the copyright footer*/
+
+span {
+	background-color: #282525;
+	color: coral;
+	text-align: center;
+	clear: both;
+	float: left;
+	width: 1024px;
+	padding: 20px 0 20px 0;
+	border-top: solid 2px black;
+}
+
+
+/*Login page design*/
+
+.loginlinks {
+	display: inline;
+	float: left;
+}
+
+.loginmain {
+	background-color: #282525;
+	clear: both;
+	float: left;
+	width: 1024px;
+	height: 300px;
+	padding-top: 20px;
+	border-top: solid 1px black;
+	color: coral;
+}
+
+.loginmain h2 {
+	text-transform: uppercase;
+	padding: 0 0 5px 110px;
+}
+
+.loginmain form {
+	padding: 25px 0 5px 45px;
+	border: solid 2px black;
+	margin: 0 auto 0 auto;
+	width: 750px;
+	height: 150px;
+	border-radius: 5px;
+}
+
+	/*Button design, green/red oval shape*/
+
+div .button1 {
+	text-transform: uppercase;
+	color: black;
+	background-color: lightgreen;
+	position: relative;
+	left: -30px;
+	bottom: -80px;
+	width: 120px;
+	height: 40px;
+	border-radius: 20px;
+}
+
+div .button2 {
+	text-transform: uppercase;
+	color: black;
+	background-color: lightcoral;
+	position: relative;
+	left: -20px;
+	bottom: -80px;
+	width: 120px;
+	height: 40px;
+	border-radius: 20px;
+}	
+
+
+
+
